@@ -1,0 +1,201 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /home/valquiria/Dropbox/Orcamentos Moria/FDDA Eletrica hidraulica/Orçamento - FDDA Eletrica Hidraulica/Orçamentos Eletricos/Eletrica baixa potencia/Atlas/2023/quadro de ligação/03_Projeto/Memorial descritivo/
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Calculos BÃ¡sicos
+\end_layout
+
+\begin_layout Standard
+Porque estÃ¡ linha nÃ£o esta junto com ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+\end_layout
+
+\begin_layout Subsection
+Corrente de projeto Ip ou Ib
+\end_layout
+
+\begin_layout Standard
+Esquema de distribuiÃ§Ã£o de condutores vivos: Corrente alternada monofÃ¡sico a dois condutores F + N (220V ou 127V) Corrente alternada trifÃ¡sico a quatro condutores 3F + N (380V ou 220V)
+\end_layout
+
+\begin_layout Subsection
+Metodos para dimensionamento de cabos
+\end_layout
+
+\begin_layout Standard
+MÃ©todo de referÃªncia para os calculos de capacidade de conduÃ§Ã£o de corrente B1 Condutores isolados ou cabos unipolares em eletroduto circulares aparaente ou embutido em alvenaria. Tipo de instalaÃ§Ã£o mais comum, considerado para alimentaÃ§Ã£o do QDP (quadro de distribuiÃ§Ã£o do painel). Esquema de aterramento A alimentaÃ§Ã£o do quadro de ser composto por uma proteÃ§Ã£o PE (aterramento), um neutro, uma fase para monofÃ¡sica ou trÃªs fases para trifÃ¡sica Em esquema TN o seccionaento automÃ¡tico visando proteÃ§Ã£o contra choque elÃ©trico, pode ser usados dispositivos de proteÃ§Ã£o de sobrecorrente, dispositivos de proteÃ§Ã£o a corrente diferencial-residual (dispositivo DR), sendo este nÃ£o Ã© admitido quando usando a variante TN-C. Corrente de projeto: tabela Circuito Formula MonofÃ¡sico (F + N)
+\end_layout
+
+\begin_layout Standard
+TrifÃ¡sico (3F + N) tabela com formula Sendo:
+\end_layout
+
+\begin_layout Standard
+Pn â PotÃªncia elÃ©trica nominal (W); V â TensÃ£o elÃ©trica entre fase (V); 
+\begin_inset Formula $\eta$
+\end_inset
+
+ â Rendimento considerado = 1; cos 
+\begin_inset Formula $\varpi$
+\end_inset
+
+ - fator de potÃªncia (considerado = 1) Numero de condutores carregados: â¢ 2 para alimentaÃ§Ã£o de quadro monofÃ¡sico e circuitos de distribuiÃ§Ã£o; â¢ 3 para alimentaÃ§Ã£o de quadro trifÃ¡sico. Tabela 2: Capacidade de conduÃ§Ã£o de corrente (A) para metodo B1; condutor de cobre, 70Â°C, PVC, temperatura ambiente 30Â°C(ar). Fonte tabela 36 NBR 5410:2004 comeÃ§o tabela fim tabela
+\end_layout
+
+\begin_layout Standard
+ParÃ¢mentros de projeto Corrente de curto circuito: A Queda de tensÃ£o Fatores de demanda considerados Temperatura ambiente â¢ CÃ¡lculo de demanda â¢ Dimensionamento dos condutores â¢ Dimensionamento dos eletrodutos â¢ Dimensionamento das proteÃ§Ãµes 
+\end_layout
+
+\begin_layout Subsubsection
+ Metodo da queda de tensÃ£o
+\end_layout
+
+\begin_layout Subsubsection
+Dimensionamento Neutro e PE
+\end_layout
+
+\begin_layout Subsubsection
+ Metodo de instalaÃ§Ã£o
+\end_layout
+
+\begin_layout Standard
+Dimensionamento de condutos 
+\end_layout
+
+\begin_layout Subsection
+ ProteÃ§Ã£o
+\end_layout
+
+\begin_layout Subsubsection
+ProteÃ§Ã£o contra Sobrecorrente (Sobrecarga e curto-circuito)
+\end_layout
+
+\begin_layout Standard
+Dispostivos de proteÃ§Ã£o que interrompa toda corrente de sobrecarga nos condutores dos circuitos antes que ela possa provocar aquecimento que prejudique a isolaÃ§Ã£o, terminais ou vizinhanÃ§as das linha. Para isto deve satisfazer as seguintes condiÃ§Ãµes
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula $a^2 + b^2 = c^2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sendo: Ip â corrente de projeto (A) In â corrente nominal do dispositivo de proteÃ§Ã£o (A) Ic -Capacidade de conduÃ§Ã£o de corrente dos condutores vivos do circuito nas condiÃ§Ãµes de instalaÃ§Ã£o. Iz â Ic submetido a fatores de correÃ§Ã£o de agrupamento e ou fatores de correÃ§Ã£o de temperatura. I2 â Corrente de atuaÃ§Ã£o efetiva do dispositivo de proteÃ§Ã£o. acrescetar uma foto do disjuntor representando as grandezas das correntes
+\end_layout
+
+\begin_layout Subsubsection
+ Disjuntores dimensionamento
+\end_layout
+
+\begin_layout Standard
+METODO DE CALCULO DE CURTO-CIRCUITO CoordenaÃ§Ã£o e seletividade de disjuntores 
+\end_layout
+
+\begin_layout Subsubsection
+ Contra choques elÃ©tricos 
+\end_layout
+
+\begin_layout Standard
+6.1.2.1 Esquemas de aterramento 6.1.2.2 IDR dimensionamento
+\end_layout
+
+\begin_layout Subsubsection
+ ProteÃ§Ã£o contra sobretensÃµes
+\end_layout
+
+\begin_layout Subsubsection
+ Contra descarga atmosfÃ©rica
+\end_layout
+
+\begin_layout Standard
+Compatibilidade eletromagnÃ©tica 
+\end_layout
+
+\begin_layout Subsubsection
+Quadros e acessÃ³rios
+\end_layout
+
+\begin_layout Standard
+â¢ Quadro de distribuiÃ§Ã£o â¦ diagrama esquemÃ¡tico unifilar â¦ diagrama esquemÃ¡tico multifilar â¢ EspecificaÃ§Ãµes dos componentes â¢ Lista de materiais Avisos devem ser colocados no quadro foto do adesivo Colocar aqui os adesivos e criar um anexo para a impressÃ£o dos adesivos. Colocar os tamanhos de quadro metalicos disponiveis, considerados ATENÃÃO A MANUTENÃÃO DO QUADRO ELETRICO DEVE SER REALIZADO POR PESSOAL HABILITADO. RISCO DE CHOQUE.
+\end_layout
+
+\end_body
+\end_document

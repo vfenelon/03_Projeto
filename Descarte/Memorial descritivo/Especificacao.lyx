@@ -1,0 +1,141 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /home/valquiria/Dropbox/Orcamentos Moria/FDDA Eletrica hidraulica/Orçamento - FDDA Eletrica Hidraulica/Orçamentos Eletricos/Eletrica baixa potencia/Atlas/2023/quadro de ligação/03_Projeto/Memorial descritivo/
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+EspecificaÃ§Ãµes TÃ©cnicas
+\end_layout
+
+\begin_layout Subsection
+Condutores elÃ©tricos
+\end_layout
+
+\begin_layout Standard
+Os cabos elÃ©tricos utilizados nas instalaÃ§Ãµes devem possuir classe de encordoamento no mÃ­nimo 5 ou 6, tanto para os circuitos terminais, quanto para o alimentador do quadro de distribuiÃ§Ã£o QGD1, os cabos dos circuitos terminais deverÃ£o ser cabos isolados de PVC (450/750V), nas cores preta, azul, vermelho, branco e ou verde) e unipolar em EPR para o alimentador do quando QGD1. Todos os condutores deverÃ£o seguir a NBR NM 247-3 e possuir o selo do inmetro, todas as seÃ§Ãµes desses condutores estÃ£o descritas na tabela de carga de acordo com os seus respectivos circuitos e deverÃ£o ser seguidos. ATENÃÃO A escolha dos cabos devem ser realizadas conforme a Norma 5410.
+\end_layout
+
+\begin_layout Subsection
+Disjuntores
+\end_layout
+
+\begin_layout Standard
+Os disjuntores devem ser de tensÃ£o nominal de serviÃ§o Ue = 400V ou superior. Seguir as correntes nominais de atuaÃ§Ã£o de sobrecarga conforme indicado em projeto. As correntes de ruptura devem ser de 3kA para os disjuntores de circuitos terminais e 5kA para o disjuntor geral. As curvas de disparo devem seguir conforme indicado na tabela de carga, assim como a escolha da quantidade de pÃ³los. Todos os disjuntores existentes no projeto devem ser de fabrincantes que possuem o selo do INMETRO de certificaÃ§Ã£o compulsÃ³ria e os responsÃ¡veis pela compra e execuÃ§Ã£o dos materiais deverÃ£o utilizadas marcas de confianÃ§a e consolidadas no mercado como Schneider, WEG, ABB, Siemens, Steck ou similar. Todos os disjuntores deverÃ£o seguir as normas NBR NM 60898 ou NBR IEC 60947-2 quando aplicÃ¡vel. NBR 60898:2004 â Disjuntores para proteÃ§Ã£o de sobrecorrentes para instalaÃ§Ãµes domÃ©sticas e similares NBR 60947-2 â Dispositivo de manobra e comando de baixa tensÃ£o
+\end_layout
+
+\begin_layout Subsection
+IDR â Interruptor diferencial residual
+\end_layout
+
+\begin_layout Standard
+Dispostivos DR sÃ£o seccionadores mecÃ¢nicos projetados para provocar abertura na ocorrÃªncia de uma corrente de fuga Ã  terrra. Tem como principal objetivo proteger as pessoas contra os efeitos dos choques elÃ©tricos prejudiciais a saÃºde. De acordo com NBR 5410/2004 item 5.1.3.2.2, seu uso Ã© obrigatÃ³rio nos circuitos elÃ©tricos localizados em Ã¡reas molhadas e externa [Siemens 2023]. Sua versÃ£o de corrente residual atÃ© 30 mA sÃ£o destinados a principalmente a proteÃ§Ã£o de pessoas, acima deste valor, sÃ£o apropriados para a proteÃ§Ã£o de instalaÃ§Ãµes elÃ©tricas. Existe 3 tipos de dispositivos DR: 1. Tipo AC â detecta correntes residuais alternadas; 2. Tipo A â detecta correntes residuais alternadas e continua pulsantes. 3. Tipo B â detecta correntes residuais alternadas, continuas pulsantes e continuas puras[Siemens 2023]. O IDR a ser utilizado deverÃ¡ ser ligado em sÃ©rie com o disjuntor geral e este deve possuir corrente nominal igual ou superior a corrente nominal do disjuntor termomagnÃ©tico geral do quadro QDC. O valor de atuaÃ§Ã£o da corrente diferencial do IDR deverÃ¡ ser de 30mA. O IDR deverÃ¡ seguir a norma ABNT NBR NM 61008-1 (verificar validade no site da ABNT) 
+\end_layout
+
+\begin_layout Subsection
+DPS â Dispositivo de proteÃ§Ã£o contra surtos elÃ©tricos
+\end_layout
+
+\begin_layout Standard
+O DPS utilizado deverÃ¡ ser do tipo classe II, 175V e 20kA e este deverÃ¡ ser instalado dentro do quadro de distribuiÃ§Ã£o QGD1. O DPS deverÃ¡ seguir a norma ABNT NBR IEC 61643-1 (verificar validade no site da ABNT), NBR 5410 e NBR 5419.
+\end_layout
+
+\begin_layout Subsection
+Quadro elÃ©trico e acessÃ³rios
+\end_layout
+
+\begin_layout Standard
+1 O quadro de distribuiÃ§Ã£o deve seguir a norma NBR IEC 60439-1 e NBR 5410.
+\end_layout
+
+\begin_layout Standard
+No quadro deverÃ£o estar presentes os seguintes itens:
+\end_layout
+
+\begin_layout Standard
+2 TensÃ£o nominal: (220/127V) 3 Corrente de demanda: 34,55A 4 Capacidade de Curto-circuito: 5kA 5 Grau de proteÃ§Ã£o IP adequado e no mÃ­nimo IP2X. 6 Placa de IdentificaÃ§Ã£o do quadro contendo nome ou marca do fabricante e tipo ou numero de identificaÃ§Ã£o.
+\end_layout
+
+\begin_layout Standard
+O instalador deverÃ¡ inserir etiqueta de advertÃªncia conforme NBR 5410 no item 6.5.4.10 mostrada abaixo:
+\end_layout
+
+\begin_layout Standard
+5.6.5.2 Quando existir risco de choque elÃ©trico, o dispositivo de seccionamento de emergÃªncia deve seccionar todos os condutores vivos, observada a prescriÃ§Ã£o de 5.6.2.2 Perfil Canaleta DN as canaletas DN servem para agrupar, proteger e organizar os fios e cabos dentro do quadro elÃ©trico. SÃ£o de PVC rÃ­gido em conformidade com a Norma Diretiva 2002/95/EC-RoHS
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,205 @@
+\documentclass[
+book,
+12pt,
+oneside,
+%twoside
+a4paper,
+chapter=TITLE,
+english,
+brazil,
+sumario = tradicional,
+]{abntex2}
+%\documentclass[brazil,display]{elegantbook}
+
+%Pacotes comuns
+\usepackage{lmodern} % carrega uma fonte escalável com melhorias em relação à fonte padrão
+\usepackage[T1]{fontenc} % define a codificação da fonte a ser usada para a saída em PDF
+\usepackage[utf8]{inputenc} % define a codificação dos caracteres de entrada do texto fonte
+\usepackage{indentfirst} % faz a indentação do primeiro parágrafo de cada seção
+\usepackage{graphicx} % permite a inclusão de imagens no documento
+\usepackage{subcaption} % permite a criação de subfiguras e sublegendas
+\usepackage{microtype} % faz pequenos ajustes no espaçamento das palavras para melhorar a aparência do documento
+\usepackage{multirow} % permite mesclar células em tabelas em múltiplas linhas
+\usepackage{lscape} % permite que o documento tenha páginas em modo paisagem
+\usepackage[table]{xcolor} % permite colorir células de tabelas
+\usepackage{longtable} % permite a criação de tabelas que se estendem por várias páginas
+\usepackage{booktabs} % oferece ferramentas para a criação de tabelas com boa aparência
+\usepackage{colortbl} % permite colorir tabelas e células de tabela
+\usepackage{csvsimple} % permite importar dados de arquivos CSV para tabelas
+\usepackage{siunitx} % oferece suporte para unidades de medida e números com formatação específica
+\usepackage{geometry} % permite ajustar as margens do documento
+\usepackage{multicol} % permite a criação de múltiplas colunas no documento
+\usepackage{float} % permite controlar a posição dos elementos flutuantes, como figuras e tabelas
+\usepackage{makeidx} % permite criar um índice remissivo para o documento
+\usepackage{url} % permite a inclusão de URLs no documento
+\usepackage{tikz}
+
+%pacote para teste
+\usepackage{lipsum} %gerar textos aleatórios
+
+%pacotes de citações
+\usepackage[brazilian, hyperpageref]{backref} %pagigas com as citações na bibli
+\usepackage[alf]{abntex2cite} %citações padrão abntex2
+
+% Pacote para personalizar os títulos dos capítulos
+\usepackage{titlesec}
+
+% Configurações do pacote titlesec para personalizar os títulos dos capítulos
+\titleformat{\chapter}[display]
+  {\normalfont\Large\bfseries\filcenter}
+  {\chaptertitlename\ \thechapter}
+  {0pt}
+  {\Large}
+\titlespacing*{\chapter}
+  {0pt}{-50pt}{40pt}
+
+% Configurações do pacote fancyhdr para personalizar a numeração de página
+\usepackage{fancyhdr}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+
+%%% ---
+%%% Configurações do pacote backref
+%%% Usado sem a opção hyperpageref de backref
+%%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+%%% Texto padrão antes do número das páginas
+%%\renewcommand{\backref}{}
+%%% Define os textos da citação
+%%\renewcommand*{\backrefalt}[4]{
+%%	\ifcase #1 %
+%%		Nenhuma citação no texto.%
+%%	\or
+%%		Citado na página #2.%
+%%	\else
+%%		Citado #1 vezes nas páginas #2.%
+%%	\fi}%
+%%% ---
+%configuração criar um novo tipo de ambiente de flutuação que você pode usar dentro do ambiente multicols em tabela
+\newfloat{tab}{htbp}{lot}
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{DRAFT - Memorial Descritivo Projeto Quadro Ditribuição Terminal }
+\autor{Equipe FDDA SOLAR\thanks{\url{www.fddasolar.com.br}}\ \and Valquiria Fenelon Pereira\thanks{suporte@fddasolar.com.br}}
+\local{Brasil}
+\data{Várzea Alegre - Abril/2023}
+% --
+% ---
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+% ---
+% Altera as margens padrões
+% ---
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+% ---
+ %---
+% Espaçamentos entre linhas e parágrafos
+% ---
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% Espaçamento simples
+\SingleSpacing
+% ----
+% Início do documento
+% ----
+
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+
+%---
+%
+% Se desejar escrever o artigo em duas colunas, descomente a linha abaixo
+% e a linha com o texto ``FIM DE ARTIGO EM DUAS COLUNAS''.
+% \twocolumn[    		% INICIO DE ARTIGO EM DUAS COLUNAS
+%
+%---
+% página de titulo
+
+
+% página de titulo
+\maketitle
+%%% resumo em português
+%%\begin{resumoumacoluna}
+%% \vspace{\onelineskip}
+%
+% %\noindent
+% %\textbf{Palavras-chaves}: latex. abntex. editoração de texto.
+%%\end{resumoumacoluna}
+%% ----------------------------------------------------------
+%% ELEMENTOS TEXTUAIS
+%% ----------------------------------------------------------
+%\textual
+% Configura o formato dos capítulos
+\chapterstyle{default}
+% Configura a numeração de página para iniciar no primeiro capítulo
+\pagenumbering{gobble}
+
+%introdução
+\input{cap_1_intr.tex}
+
+%%%escopo do projeto´
+\input{cap_2.tex} 
+
+%descrição técnica
+\input{cap_3.tex} 
+
+%calculos básicos
+\input{cap_4.tex}
+
+%%Comum Introdução para todos os 
+\input{cap_5.tex}%
+
+\input{2x2.tex}%4
+
+\input{2x3.tex}%e 3x2 6
+
+\input{4x2.tex}% 8
+
+\input{3x3.tex} %9
+
+\input{5x2.tex} %10
+
+\input{4x3.tex} %12 6x2
+
+\input{5x3.tex} %15
+
+\input{4x4.tex} %16
+
+\input{7x3.tex} %21
+
+\input{9x3.tex} %27
+
+\input{10x4.tex} %40
+
+
+
+\chapter{Conclusão}
+
+%\printbibliography[heading=bibintoc, title=\ebibname]
+
+\appendix
+\hyphenpenalty=10000
+%\chapter{Manual de instalação do Quadro}
+%\input{Manual.tex}%Manual de instalação para ser enviado junto com o quadro para o cliente final
+
+Resumo das etapas de instalação. Informações de suporte e contato. Agradecimentos e observações finais.
+\end{document}
